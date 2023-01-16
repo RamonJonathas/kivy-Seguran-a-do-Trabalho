@@ -1,7 +1,10 @@
-# kivy-Seguran-a-do-Trabalho
-APLICATIVO  SOBRE SEGURANÇA DO TRABALHO
-Funcoẽs :dimensionar SESMT(Serviços Especializados em Engenharia de Segurança e em Medicina do Trabalho)
-         dimensionar  CIPA (comissão interna de  prevenção de acidentes)
-         exibir informções  sobre os riscos ocupacionais
-         encaminhar para o site onde se encontram  todas as NR's (Normas Regulamentadora)
+# Funcoẽs do App:
+1.Dimensionar SESMT(Serviços Especializados em Engenharia de Segurança e em Medicina do Trabalho),
+
+2.Dimensionar  CIPA (comissão interna de  prevenção de acidentes),
+
+3.Exibir informções  sobre os riscos ocupacionais,
+
+4.Abrir o site onde estão todas as NR's (Normas Regulamentadoras)
          
+      
