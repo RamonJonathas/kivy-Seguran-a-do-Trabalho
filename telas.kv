@@ -1,0 +1,385 @@
+ScreenManager:
+    RegisterScreen:
+    PrincipalScreen:
+    DimensionamentoScreen:
+    SesmtScreen:
+    
+    RiscosScreen:
+    QuimicosScreen:
+    FisicosScreen:
+    AcidentesScreen:
+    ErgonomicosScreen:
+    BiologicosScreen:
+
+
+<RegisterScreen>:
+    name: "register"
+    MDFloatLayout:
+        md_bg_color: .7,.5,1,.5
+        
+        Image:
+            source: 'user.png'
+            pos_hint: {'center_y':.7 , 'center_x':.5}
+            size_hint:.3 , .3
+
+        MDTextField:
+            pos_hint: {'center_y':.5 , 'center_x':.5}
+            size_hint_x: .5 
+            hint_text:"Digite seu nome..."
+        
+        MDTextField:
+            pos_hint: {'center_y':.4 , 'center_x':.5}
+            size_hint_x: .5 
+            hint_text:"Digite seu sobrenome..."
+        
+        MDFillRoundFlatButton:
+            text:'concluir'            
+            size_hint_x: .5 
+            pos_hint: {'center_y':.3 , 'center_x':.5}
+            on_release: app.root.current = 'principal'
+
+<PrincipalScreen>:
+    name:'principal'
+    MDFloatLayout:
+        md_bg_color: .7,.5,1,.5
+        Image:
+            source: 'escudo.png'
+            pos_hint: {'center_y':0.80 , 'center_x':.5}
+            size_hint:.4 , .4
+
+        MDFillRoundFlatButton:
+            text:'dimensionamento'            
+            size_hint_y: 0.15
+            size_hint_x: .6 
+            pos_hint: {'center_y':.6 , 'center_x':.5}
+            on_release: app.root.current = 'dimensionamento'
+        
+        MDFillRoundFlatButton:
+            text:'riscos'            
+            size_hint_y: 0.15
+            size_hint_x: .6            
+            pos_hint: {'center_y':.4 , 'center_x':.5}
+            on_release: app.root.current = 'riscos'
+
+        MDFillRoundFlatButton:
+            text:'normas regulamentadoras'          
+            size_hint_y: 0.15
+            size_hint_x: .6
+            pos_hint: {'center_y':.2 , 'center_x':.5}
+            on_release: app.open_nrs()
+        
+<DimensionamentoScreen>:
+    name:'dimensionamento'
+    MDFloatLayout:
+        md_bg_color: .7,.5,1,.5
+        Image:
+            source: 'trabalhador.png'
+            pos_hint: {'center_y':0.75 , 'center_x':.5}
+            size_hint:.3 , .3
+
+        MDFillRoundFlatButton:
+            text:'Sesmt'          
+            size_hint_y: 0.15
+            size_hint_x: .6 
+            pos_hint: {'center_y':.5 , 'center_x':.5}
+            on_release: app.root.current = 'sesmt'
+        
+        MDFillRoundFlatButton:
+            text:'Cipa'          
+            size_hint_y: 0.15
+            size_hint_x: .6
+            pos_hint: {'center_y':.3 , 'center_x':.5}
+            
+        MDFillRoundFlatButton:
+            text:'voltar'          
+            size_hint_x: .2
+            pos_hint: {'center_y':.06 , 'center_x':0.87}
+            on_release: app.root.current = 'principal'
+
+<SesmtScreen>:
+    name:'sesmt'
+    MDFloatLayout:
+        md_bg_color: .7,.5,1,.5
+        MDTextFieldRound:
+            id: g
+            mode:'round'
+            pos_hint: {'center_y':0.95 , 'center_x':.5}
+            size_hint_x: .8 
+            hint_text:"Digite o grau de risco..."
+        
+        MDTextFieldRound:
+            id : t
+            mode:'round'
+            pos_hint: {'center_y':.90 , 'center_x':.5}
+            size_hint_x: .8 
+            hint_text:"Digite o numero de trabalhadores..."
+        
+        Label:
+            text:''
+            id : error
+            color: 'red'
+            pos_hint:{"center_y":0.85}
+            halign: 'center'
+        
+        MDFillRoundFlatButton:
+            text:'voltar'            
+            size_hint_x: .2
+            pos_hint: {'center_y':.06 , 'center_x':0.87}
+            on_press: app.root.current = 'dimensionamento'
+
+        MDBoxLayout:
+            id: b
+            size_hint: 0.84 ,0.15
+            md_bg_color: .7,.5,1,.3
+            pos_hint: {'center_y':0.70 , 'center_x':.5}
+            MDLabel:
+                id : l
+                pos_hint:{"center_y":0.60}
+                halign: 'center'
+
+        MDIcon:
+            icon: 'sesmtimg.png'
+            pos_hint: {'center_y':.35, 'center_x':.5}
+            size_hint_x:0.95
+            size_hint_y:.4
+            
+
+        MDFillRoundFlatButton:
+            mode: 'round'
+            text:'Dimensionar'
+            size_hint_x: 0.84
+            pos_hint: {'center_y':0.80 , 'center_x':.5}
+            on_release: root.mudar()
+
+
+
+<RiscosScreen>:
+    name: "riscos"
+    MDFloatLayout:
+        md_bg_color: .7,.5,1,.5
+        MDFillRoundFlatButton:            
+            pos_hint: {'center_y':0.80, 'center_x':.5}
+            size_hint_x: .5
+            size_hint_y: .1
+            md_bg_color: 220/255,20/255,60/255,1
+            text: "QUIMICOS"
+            on_release: app.root.current = 'quimicos'
+
+        MDFillRoundFlatButton:            
+            pos_hint: {'center_y':0.65, 'center_x':.5}
+            size_hint_x: .5
+            size_hint_y: .1
+            md_bg_color: 255/255,255/255,0/255,1
+            text:"ERGONOMICOS"
+            on_release: app.root.current = 'ergonomicos'
+
+        MDFillRoundFlatButton:            
+            pos_hint: {'center_y':0.50, 'center_x':.5}
+            size_hint_x: .5
+            size_hint_y: .1
+            md_bg_color: 50/255,205/255,50/255,1
+            text:"FISICOS" 
+            on_release: app.root.current = 'fisicos'
+
+        MDFillRoundFlatButton:            
+            pos_hint: {'center_y':0.35, 'center_x':.5}
+            size_hint_x: .5
+            size_hint_y: .1
+            md_bg_color: 0/255,255/255,255/255,1
+            text:"ACIDENTES"
+            on_release: app.root.current = 'acidentes'
+
+        MDFillRoundFlatButton:
+            pos_hint: {'center_y':0.20, 'center_x':.5}
+            size_hint_x: .5
+            size_hint_y: .1			
+            text: "BIOLOGICOS"           
+            md_bg_color: 222/255,184/255,135/255,1
+            on_release: app.root.current = 'biologicos'
+
+        MDFillRoundFlatButton:
+            text:'voltar'            
+            size_hint_x: .2
+            pos_hint: {'center_y':.06 , 'center_x':0.87}
+            on_release: app.root.current = 'principal'
+
+
+<QuimicosScreen>:
+    name: "quimicos"
+    MDFloatLayout:
+        md_bg_color: .7,.5,1,.5
+        
+        Image:
+            source:'riscoq.png'
+            size_hint_x: 0.95
+            size_hint_y: 0.30
+            pos_hint: {'center_y':0.85 , 'center_x':.5}
+
+        MDBoxLayout:
+            orientation:'vertical'
+            size_hint: 0.90 ,0.55
+            md_bg_color: .7,.5,1,.3
+            pos_hint: {'center_y':0.37 , 'center_x':.5}
+           
+            ScrollView:
+                do_scroll_x: False
+                do_scroll_y: True
+
+                Label:               
+                    size_hint_y: None
+                    height: self.texture_size[1]
+                    text_size: self.width, None
+                    color:'black'
+                    padding: 10, 10
+                    text: root.string
+        
+        MDFillRoundFlatButton:
+            text:'voltar'
+            size_hint_x: .2
+            pos_hint: {'center_y':.04 , 'center_x':0.87}
+            on_release: app.root.current = 'riscos'
+
+<FisicosScreen>:
+    name: "fisicos"
+    MDFloatLayout:
+        md_bg_color: .7,.5,1,.5
+        Image:
+            source:'riscof.png'
+            size_hint_x: 0.95
+            size_hint_y: 0.30
+            pos_hint: {'center_y':0.85 , 'center_x':.5}
+
+        MDBoxLayout:
+            orientation:'vertical'
+            size_hint: 0.90 ,0.55
+            md_bg_color: .7,.5,1,.3
+            pos_hint: {'center_y':0.37 , 'center_x':.5}
+           
+
+            ScrollView:
+                do_scroll_x: False
+                do_scroll_y: True
+
+                Label:                   
+                    size_hint_y: None
+                    height: self.texture_size[1]
+                    text_size: self.width, None
+                    color:'black'
+                    padding: 10, 10
+                    text: root.string
+        
+        MDFillRoundFlatButton:
+            text:'voltar'        
+            size_hint_x: .2
+            pos_hint: {'center_y':.04 , 'center_x':0.87}
+            on_release: app.root.current = 'riscos'
+            
+<BiologicosScreen>:
+    name: "biologicos"
+    
+    MDFloatLayout:
+        md_bg_color: .7,.5,1,.5
+        
+        Image:
+            source:'riscob.png'
+            size_hint_x: 0.95
+            size_hint_y: 0.30
+            pos_hint: {'center_y':0.85 , 'center_x':.5}
+
+        MDBoxLayout:
+            orientation:'vertical'
+            size_hint: 0.90 ,0.55
+            md_bg_color: .7,.5,1,.3
+            pos_hint: {'center_y':0.37 , 'center_x':.5}
+           
+
+            ScrollView:
+                do_scroll_x: False
+                do_scroll_y: True
+
+                Label:
+                    
+                    size_hint_y: None
+                    height: self.texture_size[1]
+                    text_size: self.width, None
+                    color:'black'
+                    padding: 10, 10
+                    text: root.string
+        
+        MDFillRoundFlatButton:
+            text:'voltar'     
+            size_hint_x: .2
+            pos_hint: {'center_y':.04 , 'center_x':0.87}
+            on_release: app.root.current = 'riscos'
+
+<AcidentesScreen>:
+    name: "acidentes"
+    MDFloatLayout:
+        md_bg_color: .7,.5,1,.5
+        Image:
+            source:'riscoa.png'
+            size_hint_x: 0.95
+            size_hint_y: 0.30
+
+            pos_hint: {'center_y':0.85 , 'center_x':.5}
+
+        MDBoxLayout:
+            orientation:'vertical'
+            size_hint: 0.90 ,0.55
+            md_bg_color: .7,.5,1,.3
+            pos_hint: {'center_y':0.37 , 'center_x':.5}
+           
+
+            ScrollView:
+                do_scroll_x: False
+                do_scroll_y: True
+
+                Label:              
+                    size_hint_y: None
+                    height: self.texture_size[1]
+                    text_size: self.width, None
+                    color:'black'
+                    padding: 10, 10
+                    text: root.string
+        
+        MDFillRoundFlatButton:
+            text:'voltar'            
+            size_hint_x: .2
+            pos_hint: {'center_y':.04 , 'center_x':0.87}
+            on_release: app.root.current = 'riscos'
+
+<ErgonomicosScreen>:
+    name: "ergonomicos"
+    MDFloatLayout:
+        md_bg_color: .7,.5,1,.5
+        Image:
+            source:'riscoe.png'
+            size_hint_x: 0.95
+            size_hint_y: 0.30
+            pos_hint: {'center_y':0.85 , 'center_x':.5}
+
+        MDBoxLayout:
+            orientation:'vertical'
+            size_hint: 0.90 ,0.55
+            md_bg_color: .7,.5,1,.3
+            pos_hint: {'center_y':0.37 , 'center_x':.5}
+           
+
+            ScrollView:
+                do_scroll_x: False
+                do_scroll_y: True
+
+                Label:                    
+                    size_hint_y: None
+                    height: self.texture_size[1]
+                    text_size: self.width, None
+                    color:'black'
+                    padding: 10, 10
+                    text: root.string
+        
+        MDFillRoundFlatButton:
+            text:'voltar'   
+            size_hint_x: .2
+            pos_hint: {'center_y':.04 , 'center_x':0.87}
+            on_release: app.root.current = 'riscos'
+
