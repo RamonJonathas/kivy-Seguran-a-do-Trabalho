@@ -5,9 +5,9 @@
 <p>Aplicativo sobre segurança no trabalho feito com kivy/kivyMD</p>
 
 <h2>Funções</h2>
-<p>1⃣-Dimensionar SESMT(Serviços Especializados em Engenharia de Segurança e em Medicina do Trabalho),<br>
-2⃣-Dimensionar  CIPA (comissão interna de  prevenção de acidentes),<br>
-3⃣-Exibir informções  sobre os riscos ocupacionais, <br>
+<p>1⃣-Dimensionar SESMT(Serviços Especializados em Engenharia de Segurança e em Medicina do Trabalho)<br>
+2⃣-Dimensionar  CIPA (comissão interna de  prevenção de acidentes)<br>
+3⃣-Exibir informções  sobre os riscos ocupacionais<br>
 4⃣-Abrir o site onde estão todas as NR's (Normas Regulamentadora)</p>
 
 
