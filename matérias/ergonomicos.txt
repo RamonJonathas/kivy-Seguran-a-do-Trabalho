@@ -1,0 +1,54 @@
+Segundo o engenheiro e ergonomista Itiro Iida, a ergonomia é o estudo da adaptação do trabalho ao homem. O trabalho aqui tem uma acepção bastante ampla, abrangendo não apenas aqueles executados com máquinas e equipamentos, utilizados para transformar os materiais, mas também os aspectos organizacionais. A ergonomia tem uma visão ampla, abrangendo atividades de planejamento e projeto, que ocorrem antes do trabalho ser realizado, e aqueles de controle e avaliação, que ocorrem durante e após esse.
+
+Em uma situação ideal, a ergonomia deve ser aplicada desde as etapas iniciais do projeto de uma máquina, sistema, ambiente ou local de trabalho. Essas devem sempre incluir o ser humano como um de seus componentes. Assim, as características desse operador devem ser consideradas juntamente com as características ou restrições das partes mecânicas, sistêmicas ou ambientais, para se ajustarem mutuamente umas às outras.
+
+O conceito de ergonomia realmente é bastante abrangente, sendo hoje aplicável na indústria, comércio, setor de serviços e até mesmo na vida do cidadão comum. Detectamos os riscos ergonômicos, a partir da AET – Análise Ergonômica do Trabalho, prevista na Norma Regulamentadora n° 17 (NR 17) do Ministério do Trabalho e Emprego. Existem riscos ergonômicos que podemos dizer que são mais comuns nas empresas, principalmente no ambiente industrial, dentre os quais citamos logo abaixo:
+
+1 – Trabalho repetitivo:
+
+É um dos principais fatores de origem dos distúrbios dos membros superiores. Segundo o ergonomista Hudson Couto, referência nacional no tema de ergonomia, quando o assunto é a análise individual do fator repetitividade, as pesquisas indicam que os ciclos curtos se tornam um risco muito significativo quando, em decorrência deles, há acima de 6 mil repetições por turno de trabalho. É esperado que trabalhadores submetidos a essa situação, sem pausas ou outros mecanismos de regulação e que estejam apresentando o problema, com o decorrer do tempo, na função, venham apresentar algum distúrbio ou lesão. Entre 3 e 6 mil repetições por turno, a incidência de distúrbios e lesões ocorre entre 12 e 20% dos expostos.
+
+Abaixo de 3 mil, ocorre alguma incidência, e, abaixo 1 mil, a exposição é considerada segura. O trabalho repetitivo é muito comum em fábricas com linhas de montagem, locais de inspeção de itens de produção (geralmente no setor de qualidade), trabalhos de lixamento e polimento de peças, atividades de costura e corte (principalmente na indústria de vestuário), entre outras.
+
+2 – Levantamento e transporte manual de cargas (principalmente superiores a 25kg):
+
+O transporte de pesos provoca uma sobrecarga fisiológica nos músculos da coluna e dos membros inferiores. O manuseio de cargas é responsável por grande parte dos traumas musculares entre os trabalhadores. De acordo com o ergonomista inglês Robert Bridger, aproximadamente 60% dos problemas musculares são causados por levantamento de cargas e 20% puxando-as ou empurrando-as.
+
+Isso ocorre principalmente devido à grande variação individual das capacidades físicas, treinamentos insuficientes e frequentes substituições de trabalhadores. Esforços muito intensos feitos com os membros superiores são de alto potencial lesivo, principalmente porque, para eles, as pausas ou rodízios são mecanismos ineficazes de compensação.  Esses riscos são muito comuns em trabalhadores das áreas de expedição, almoxarifados, carregadores de caminhões ou outros que precisam transportar materiais na produção, sem uso de equipamentos (carrinhos ou paleteiras).
+
+3 – Esforços estáticos e posturas estáticas (má postura):
+
+Normalmente, os trabalhadores assumem posturas inadequadas devido ao projeto deficiente das máquinas, equipamentos, postos de trabalho e às exigências da tarefa. As situações principais em que a má postura pode produzir consequências danosas são:
+
+Trabalho estático que envolva uma postura parada por longos períodos;
+Trabalhos que exigem posturas desfavoráveis, como o tronco inclinado e torcido;
+Pescoço excessivamente flexionado;
+Braços elevados acima do nível dos ombros;
+Braços ou antebraços suspensos.
+Essas situações podem ocasionar falta de oxigênio nos tecidos, dor e tendência à lesão por acúmulo de ácido láctico nos tecidos.
+
+Podemos citar entre os expostos a estas situações: trabalhos com estoques de mercadorias elevadas, atividades dos mecânicos de manutenção, linhas de montagem de alta precisão, trabalhos administrativos com uso de computador ou notebook, eletricistas, soldadores e outros.
+
+4 – Fatores de organização do trabalho:
+
+As ocorrências mais frequentes são: carga de trabalho excessiva, insuficiência de pessoal, mão de obra insuficientemente preparada, prazos assumidos sem a devida consideração sobre a capacidade de mão de obra, urgências e emergências, retrabalho e retrocesso, falta de material para completar o trabalho, falta de manutenção, problemas com qualidade do material, exigindo esforço extra dos trabalhadores. Tudo isso gera sobrecarga no trabalho além de tensional, que se apresenta sob a forma de horas extras excessivas, dobras de turno, trabalhos aos sábados, domingos e feriados. Esses fatores eliminam os tempos de recuperação da fadiga.
+
+Conforme afirma o ergonomista Hudson Couto, a pressão excessiva sobre os trabalhadores e outros fatores psicossociais fazem com que o trabalhador fique tenso, prejudicando a recuperação das estruturas. Quando uma pessoa está excessivamente tensa, a tensão interna dos músculos prejudica a circulação do sangue e um dos principais sintomas é a dor nos músculos do pescoço e dos ombros, também denominada “dor em cabide” explicada pelo acúmulo de ácido láctico.
+
+Os riscos psicossociais decorrem de deficiências na organização e gestão do trabalho bem como de um contexto social de trabalho problemático, podendo ter efeitos negativos a nível psicológico, físico e social, tais como estresse relacionado com o trabalho, esgotamento ou depressão. Quaisquer ambientes de trabalho podem apresentar estes fatores de riscos.
+
+5 – Fatores ambientais:
+
+Uma grande fonte de tensão no trabalho são as condições ambientais desfavoráveis, como excesso de calor ou frio, ruídos, vibrações, agentes químicos nocivos e iluminação. Esses fatores causam desconforto, aumentam o risco de acidentes e podem provocar danos consideráveis à saúde.
+
+Para cada uma dessas variáveis ambientais, há certas características que são mais prejudiciais ao trabalho. Tanto o frio quanto o calor comprometem muito a capacidade produtiva, como também ambientes ruidosos, acima de 90dB, provocando reações fisiológicas prejudiciais ao organismo, aumentando o estresse e a fadiga.
+
+A vibração direta sobre o corpo humano pode provocar efeitos fisiológicos e psicológicos, como perda de equilíbrio, falta de concentração e visão turva, diminuindo a acuidade visual.
+
+Os agentes químicos nocivos à saúde atingem o organismo por via da ingestão, contato com a pele e inalação. Alguns agentes bastante encontrados nas indústrias são: monóxido de carbono, solventes, metais pesados, agrotóxicos, sílica e gases.
+
+Um ambiente de trabalho com iluminação inadequada pode provocar ao trabalhador: queda de rendimento (principalmente em trabalhadores com mais 45 anos de idade) e fadiga visual. Os fatores ambientais são normalmente encontrados no setor industrial.
+
+Todos os fatores de riscos ergonômicos são detectados, analisados e corrigidos a partir da AET – Análise Ergonômica do Trabalho. Esse documento é essencial para a avaliação (quantitativa e qualitativa) dos riscos ergonômicos presentes nas máquinas, postos de trabalho e na execução da atividade profissional.
+
+A ergonomia bem aplicada tornará o ambiente de trabalho mais seguro, saudável, eficiente e produtivo.
