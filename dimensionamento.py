@@ -1,4 +1,5 @@
 
+
 resposta = str('..')
 
     
@@ -6,11 +7,7 @@ def dimensionamento_sesmt(grau,numero_trabalhadores):
     global resposta
 
     if grau == int(1):
-        if numero_trabalhadores >49 and numero_trabalhadores <101:
-            resposta = 'sem sesmt'  
-        elif numero_trabalhadores >100 and numero_trabalhadores <251:
-            resposta = 'sem sesmt'
-        elif numero_trabalhadores >250 and numero_trabalhadores <501:
+        if numero_trabalhadores <501:
             resposta = 'sem sesmt'
         elif numero_trabalhadores >500 and numero_trabalhadores <1001:
             resposta ='1 tecnico de enfermagem'
@@ -24,11 +21,7 @@ def dimensionamento_sesmt(grau,numero_trabalhadores):
             resposta = '1 técnico de segurança, 1 engenheiro de segurança do trabalho* , 1 técnico de enfermagem, 1 médico do trabalho*'    
     
     elif grau == int(2):
-        if numero_trabalhadores >49 and numero_trabalhadores <101:
-            resposta = 'Suplentes: ,Efetivos: '  
-        elif numero_trabalhadores >100 and numero_trabalhadores <251:
-            resposta = 'sem sesmt'
-        elif numero_trabalhadores >250 and numero_trabalhadores <501:
+        if numero_trabalhadores <501:
             resposta = 'sem sesmt'
         elif numero_trabalhadores >500 and numero_trabalhadores <1001:
             resposta ='1 tecnico de enfermagem'
@@ -77,5 +70,4 @@ def dimensionamento_sesmt(grau,numero_trabalhadores):
         elif numero_trabalhadores >5000:
             resposta = '3 técnicos de segurança do trabalho, 1 engenheiro de segurança do trabalho e 1 médico do trabalho*'
     
-
 
